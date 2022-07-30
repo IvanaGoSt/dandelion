@@ -1,0 +1,62 @@
+#header-beckground {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+}
+
+header img {
+  display: none;
+}
+
+header h1, header h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 10px gray;
+}
+
+header h1 {
+  font-family: 'Square Peg', cursive;
+  font-size: 10em;
+}
+
+header h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 750px) {
+  #header-beckground {
+    display: none;
+  }
+
+  header img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  header h1 {
+    font-size: 6rem;
+  }
+}
+
+section {
+  height: 100vh;
+}
